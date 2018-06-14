@@ -22,7 +22,6 @@ const actions = {
   setUserData: userData => state => ({ userData })
 }
 
-
 const view = (state, actions) =>
   <main>
     <div>Search github users:</div>
